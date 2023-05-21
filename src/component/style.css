@@ -1,0 +1,261 @@
+body {
+    background-color: ghostwhite;
+
+}
+
+.maincontainer {
+    align-items: center;
+}
+
+.container:hover {
+
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 400px;
+    height: 290px;
+    width: 540px;
+    background-color: cyan;
+    border-radius: 5px;
+    border: white solid 2px;
+
+}
+
+.fortitle {
+    margin-top: 30px;
+
+
+}
+
+.titlename {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.headings {
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.heading1 {
+    flex: 4;
+    padding-left: 40px;
+
+
+}
+
+.heading2 {
+    padding-left: 40px;
+    flex: 4;
+}
+
+
+.heading3 {
+    padding-left: 40px;
+    flex: 4;
+
+}
+
+.inputs {
+    display: flex;
+
+}
+
+.bx1 {
+    flex: 4;
+
+
+}
+
+.bx2 {
+    flex: 4;
+
+
+}
+
+.bx3 {
+    flex: 4;
+
+}
+
+
+.input1 {
+    width: 50px;
+    height: 50px;
+    margin-left: 55px;
+    font-size: 24px;
+    border: none;
+    background-color: cyan;
+
+}
+
+.input1:focus {
+    outline: none;
+}
+
+.input2 {
+    width: 50px;
+    height: 50px;
+    margin-left: 65px;
+    font-size: 24px;
+    border: none;
+    background-color: cyan;
+
+}
+
+.input2:focus {
+    outline: none;
+}
+
+.input3 {
+    width: 50px;
+    height: 50px;
+    margin-left: 65px;
+    font-size: 24px;
+    border: none;
+    background-color: cyan;
+
+}
+
+.input3:focus {
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    padding: 20px;
+
+
+}
+
+.start {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+
+    width: 70px;
+    height: 25px;
+    flex: 6;
+}
+
+.start:hover {
+    background-color: rgb(249, 250, 251);
+}
+
+.start:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.start:focus-visible {
+    box-shadow: none;
+}
+
+
+
+
+.stop {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+
+    display: none;
+    width: 70px;
+    height: 25px;
+    flex: 6;
+}
+
+.stop:hover {
+    background-color: rgb(249, 250, 251);
+}
+
+.stop:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.stop:focus-visible {
+    box-shadow: none;
+}
+
+
+
+
+.restart {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+    flex: 6;
+    width: 70px;
+    height: 25px;
+    margin-left: 75px;
+}
+
+.restart:hover {
+    background-color: rgb(249, 250, 251);
+}
+
+.restart:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.restart:focus-visible {
+    box-shadow: none;
+}
